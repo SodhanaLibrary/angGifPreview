@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+div {
+  margin:auto;
+  margin-bottom:10px;
+  width:400px;
+}
+</style>
+<link rel="stylesheet" href="angGifPreview/angGifPreview.css" />
+<title>Gif Preview with AngularJS</title>
+</head>
+<body ng-app="sampleExample" ng-controller="Controller">
+    <div>
+	   <gif-preview preview="previewImage" gif="gifImage"></gif-preview>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="angGifPreview/angGifPreview.js"></script>
+<script>
+(function(angular) {
+	'use strict';
+	angular.module('sampleExample', ['gifPreview'])
+	  .controller('Controller', ['$scope', function($scope) {
+	      $scope.previewImage = 'sample_first_frame.png';
+	      $scope.gifImage = 'sample_giphy.gif';
+	}]);
+})(window.angular);
+</script>
+</html>
