@@ -1,9 +1,9 @@
 # angGifPreview
 AngularJS Directive For GIF Preview As Like Facebook
 ###Explanation
-[Click here] (http://blog.sodhanalibrary.com/2016/03/facebook-like-gif-preview-using-jquery.html) to read complete explanation
+[Click here] (http://blog.sodhanalibrary.com/2016/03/facebook-like-gif-preview-using.html) to read complete explanation
 ###Demo
-[Click here] (http://demo.sodhanalibrary.com/angular/gif_preview/jqGifPreview/demo.html) to see demo
+[Click here] (http://demo.sodhanalibrary.com/angular/gif_preview/angGifPreview/demo.html) to see demo
 
 ##Implementation
 ###Add AngularJS 
